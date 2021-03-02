@@ -1,0 +1,57 @@
+2021-02-28 19:57:20,118   INFO  [1]  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 19:57:20,148   INFO  [1]  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 19:57:20,148   INFO  [1]  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 19:58:22,176  ERROR  [5]  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:18:26,245   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:18:26,290   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:18:26,290   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:18:38,077   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:18:38,105   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:18:38,105   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:18:42,909  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:18:53,797   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-02-28 20:22:04,409   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:54989
+ 2021-02-28 20:22:04,438   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:22:04,438   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:22:04,438   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:22:49,482   WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.LogMessage  Failed to determine the https port for redirect.
+ 2021-02-28 20:22:49,530  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:25:41,112   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-02-28 20:25:45,747   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-02-28 20:25:45,772   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-02-28 20:25:45,772   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:25:45,773   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:25:45,773   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:26:02,441  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:26:44,672  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:26:58,566  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:27:20,578   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-02-28 20:27:42,393  FATAL  Microsoft.AspNetCore.Server.Kestrel.LogMessage  Unable to start Kestrel.
+ System.Net.Sockets.SocketException (10013): 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-02-28 20:27:50,840   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://[::]:5177
+ 2021-02-28 20:27:50,868   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:27:50,868   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:27:50,868   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:28:09,151   WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.LogMessage  Failed to determine the https port for redirect.
+ 2021-02-28 20:28:09,200  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-02-28 20:33:15,530   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-02-28 20:33:21,901   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://[::]:5177
+ 2021-02-28 20:33:21,933   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-02-28 20:33:21,933   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-02-28 20:33:21,933   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-02-28 20:33:26,872   WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.LogMessage  Failed to determine the https port for redirect.
+ 2021-02-28 20:33:26,918  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 

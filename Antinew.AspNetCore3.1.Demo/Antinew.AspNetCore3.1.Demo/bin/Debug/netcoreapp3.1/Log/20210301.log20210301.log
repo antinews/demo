@@ -1,0 +1,23 @@
+2021-03-01 15:18:00,496   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:18:00,526   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:18:00,526   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:18:00,526   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:18:00,526   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:18:13,591  ERROR  Microsoft.AspNetCore.Server.Kestrel.LogMessage  Connection id "0HM6SG8MIS41P", Request id "0HM6SG8MIS41P:00000001": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.<>c.<Build>b__18_0(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__1>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-03-01 15:18:33,140   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:20:15,799   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:20:15,831   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:20:15,831   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:38:00,353   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:38:00,382   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:38:00,382   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 

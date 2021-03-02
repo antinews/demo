@@ -1,0 +1,216 @@
+2021-03-01 14:20:56,443   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 14:56:14,795   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 14:56:14,842   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 14:56:14,842   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:13:08,256   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:13:08,289   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:13:08,290   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:14:32,800   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:14:32,834   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:14:32,834   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:15:38,724   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:15:38,760   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:15:38,761   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:16:43,189   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:16:43,222   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:16:43,222   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:16:43,229  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Response already started
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-01 15:16:43,233   WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  The response has already started, the error page middleware will not be executed.
+ 2021-03-01 15:16:43,238  ERROR  Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer.LogMessage  Connection ID "18302628895834243081", Request ID "8000000a-0002-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: Response already started
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__2>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-03-01 15:16:43,272  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Response already started
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-01 15:16:43,272   WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  The response has already started, the error page middleware will not be executed.
+ 2021-03-01 15:16:43,273  ERROR  Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer.LogMessage  Connection ID "18374686515641974791", Request ID "80000008-0008-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: Response already started
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__2>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-03-01 15:17:25,596   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:17:25,636   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:17:25,636   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:17:25,639  ERROR  Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer.LogMessage  Connection ID "18374686528526876673", Request ID "80000002-000b-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.<>c.<Build>b__18_0(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__1>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-03-01 15:17:25,667  ERROR  Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer.LogMessage  Connection ID "18374686519936942085", Request ID "80000006-0009-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.<>c.<Build>b__18_0(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__1>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-03-01 15:18:38,027   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:18:38,057   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:18:38,058   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:18:38,058   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:18:38,058   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:18:41,705  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-01 15:18:41,707   WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  The response has already started, the error page middleware will not be executed.
+ 2021-03-01 15:18:41,711  ERROR  Microsoft.AspNetCore.Server.Kestrel.LogMessage  Connection id "0HM6SG8UV7D1M", Request id "0HM6SG8UV7D1M:00000001": An unhandled exception was thrown by the application.
+ System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.SessionEstablisher..ctor(HttpContext context, String cookieValue, SessionOptions options)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Antinew.AspNetCore3._1.Demo.Startup.<>c__DisplayClass5_0.<<Configure>b__2>d.MoveNext() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Startup.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-03-01 15:19:58,006   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:20:01,659   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:20:01,688   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:20:01,688   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:20:01,688   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:20:01,688   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:21:01,599   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:21:05,065   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:21:05,094   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:21:05,095   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:21:05,095   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:21:05,095   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:21:14,552   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:21:17,866   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:21:17,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:21:17,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:21:17,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:21:17,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:23:32,780   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:23:36,132   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:23:36,163   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:23:36,163   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:23:36,163   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:23:36,163   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 15:38:17,060   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 15:40:27,462   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 15:40:27,491   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 15:40:27,492   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 15:40:27,492   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 15:40:27,492   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:12:38,797   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:12:44,721   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:12:44,751   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:12:44,751   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:12:44,752   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:12:44,752   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:20:50,208   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:20:54,319   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:20:54,350   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:20:54,350   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:20:54,350   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:20:54,351   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:21:30,506   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:21:34,551   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:21:34,581   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:21:34,581   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:21:34,581   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:21:34,581   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:29:10,147   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:29:14,329   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:29:14,358   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:29:14,358   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:29:14,358   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:29:14,358   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:29:46,398   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:29:50,236   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:29:50,266   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:29:50,267   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:29:50,267   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:29:50,267   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 16:30:06,231   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 16:30:10,088   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 16:30:10,117   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 16:30:10,118   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 16:30:10,118   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 16:30:10,118   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 20:29:51,375   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 20:31:34,983   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 20:31:35,013   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 20:31:35,013   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 20:31:35,014   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 20:31:35,014   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 20:33:17,864  ERROR  Antinew.AspNetCore3._1.Demo.Controllers.FirstController.LogMessage  ILogger：进入FirstController Index方法。。。
+ 2021-03-01 20:33:39,649   WARN  Antinew.AspNetCore3._1.Demo.Controllers.SecondController.LogMessage  进入 SecondController Index....
+ 2021-03-01 20:33:39,655  ERROR  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.LogMessage  The view 'Index' was not found. Searched locations: /Views/Second/Index.cshtml, /Views/Shared/Index.cshtml
+ 2021-03-01 20:33:39,668  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Second/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-01 20:34:44,655   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-01 20:34:48,478   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-01 20:34:48,503   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-01 20:34:48,504   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-01 20:34:48,504   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-01 20:34:48,504   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-01 20:34:50,443   WARN  Antinew.AspNetCore3._1.Demo.Controllers.SecondController.LogMessage  进入 SecondController Index....
+ 2021-03-01 21:57:37,983   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 

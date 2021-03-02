@@ -1,0 +1,264 @@
+2021-03-02 19:54:05,630   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 19:54:05,664   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 19:54:05,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 19:54:05,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 19:54:05,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 19:55:06,714   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 19:55:11,596   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 19:55:11,625   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 19:55:11,626   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 19:55:11,626   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 19:55:11,626   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 19:55:47,367   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 19:55:51,863   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 19:55:51,895   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 19:55:51,895   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 19:55:51,896   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 19:55:51,896   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 21:51:26,228   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 21:51:41,633   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 21:51:41,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 21:51:41,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 21:51:41,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 21:51:41,665   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 21:54:27,428   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:01:57,003   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:01:57,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:01:57,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:01:57,034   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:01:57,034   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:02:02,277  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Antinew.AspNetCore3._1.Demo.Controllers.ThirdController.Index() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Controllers\ThirdController.cs:line 20
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-02 22:08:10,827   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:08:17,003   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:08:17,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:08:17,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:08:17,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:08:17,033   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:08:20,187  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Antinew.AspNetCore3._1.Demo.Controllers.ThirdController.Index() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Controllers\ThirdController.cs:line 20
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-02 22:08:26,648   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:08:34,995   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:08:35,025   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:08:35,025   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:08:35,025   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:08:35,026   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:27:34,901   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:27:40,090   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:27:40,121   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:27:40,121   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:27:40,121   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:27:40,121   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:28:01,566  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:28:01,632  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Shared_Error.ExecuteAsync() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Views\Shared\Error.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAlwaysRunResultFilters>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-02 22:31:07,748   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:31:12,662   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:31:12,693   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:31:12,693   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:31:12,694   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:31:12,694   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:31:14,939  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:31:15,003  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Antinew.AspNetCore3._1.Interface.ITestServiceA' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.<>c__DisplayClass8_0.<CreateActivateInfo>b__1(ViewContext context)
+   at Microsoft.Extensions.Internal.PropertyActivator`1.Activate(Object instance, TContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAlwaysRunResultFilters>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-02 22:34:21,358   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:34:25,816   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:34:25,847   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:34:25,847   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:34:25,848   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:34:25,848   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:34:27,153  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:36:14,124   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:36:55,041   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:36:55,072   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:36:55,072   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:36:55,072   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:36:55,072   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:36:56,611  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:43:08,864   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:43:26,361   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:43:26,390   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:43:26,391   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:43:26,391   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:43:26,391   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:43:31,102  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:44:43,449  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:46:03,652  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:46:50,172  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:47:08,161  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:50:39,353   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:50:43,848   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:50:43,883   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:50:43,884   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:50:43,884   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:50:43,885   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:50:45,069  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: The 'CreateInstance' method of type 'IFilterFactory' cannot return a null value.
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-02 22:50:51,268   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:50:56,315   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:50:56,346   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:50:56,347   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:50:56,347   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:50:56,347   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:50:57,746  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 22:57:24,649   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 22:57:29,420   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 22:57:29,452   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 22:57:29,452   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 22:57:29,452   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 22:57:29,453   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 22:57:38,564  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:02:07,336   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 23:02:53,317   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:02:53,350   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:02:53,350   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:02:53,351   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:02:53,351   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 23:02:56,520  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:04:24,229   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 23:04:28,704   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:04:28,737   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:04:28,738   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:04:28,738   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:04:28,738   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 23:04:33,016  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:04:39,132   WARN  Antinew.AspNetCore3._1.Demo.Controllers.SecondController.LogMessage  进入 SecondController Index....
+ 2021-03-02 23:04:43,688  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:05:03,914  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:06:17,050  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:06:22,697  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:18:59,949   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 23:19:04,618   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:19:04,652   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:19:04,652   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:19:04,652   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:19:04,652   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 23:19:07,976  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-02 23:41:41,538   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 23:41:46,846   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:41:46,879   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:41:46,880   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:41:46,880   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:41:46,881   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 23:46:37,723   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:46:37,757   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:46:37,757   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:46:37,757   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:46:37,757   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-02 23:49:18,887   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-02 23:49:24,122   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-02 23:49:24,155   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-02 23:49:24,155   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-02 23:49:24,155   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-02 23:49:24,155   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 

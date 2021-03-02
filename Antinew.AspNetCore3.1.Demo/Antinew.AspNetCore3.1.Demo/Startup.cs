@@ -4,6 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Antinew.AspNetCore3._1.Demo.Middleware;
+using Antinew.AspNetCore3._1.Demo.Utility;
+using Antinew.AspNetCore3._1.Implement;
+using Antinew.AspNetCore3._1.Interface;
 using Autofac;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,26 +29,35 @@ namespace Antinew.AspNetCore3._1.Demo
 
         public IConfiguration Configuration { get; }
 
+
         /// <summary>
-        /// 初始化IOC日期
+        /// 初始化IOC容器
         /// </summary>
         /// <param name="services"></param>
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             //services.BuildServiceProvider().GetService
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(
+                options =>
+                {
+                    options.Filters.Add<CustomExceptionFilterAttribute>(); // 全局注册，每个controller
+                    options.Filters.Add<CustomGlobalFilterAttribute>();
+                }
+                );
             services.AddSession();
+
+            services.AddScoped(typeof(CustomExceptionFilterAttribute)); // 容器生成，自动注入
+            services.AddScoped<ITestServiceA, TestServiceA>();
         }
-        public interface ITestService { public void Show(); }
-        public class TestService : ITestService { public void Show() { Console.WriteLine("11");}}
         public void ConfigureContainer(ContainerBuilder containerBuilder)
-        {
-            containerBuilder.RegisterType<TestService>().As<ITestService>().SingleInstance();
-        }
+            => containerBuilder.RegisterModule<CustomAutofacModule>();
 
         /// <summary>
         /// 初始化中间件 AOP式的
+        /// 中间件Invoke（HttpContext）-》ResourceFilter执行前-》全局Filter执行前-》控制器执行前-》Action执行前-》{Action中的代码（OnActionExecut）|视图（OnResultExecut）}-》Action执行后-》控制器执行后-》全局Filter执行结束-》ResourceFilter执行后(然后渲染视图)-》中间件next（RequestDelegate）
+        /// Filter Order默认是0，从小到大默认执行
+        /// FilterContext.Result的赋值可以中断流程
         /// </summary>
         /// <param name="app"></param>
         /// <param name="env"></param>

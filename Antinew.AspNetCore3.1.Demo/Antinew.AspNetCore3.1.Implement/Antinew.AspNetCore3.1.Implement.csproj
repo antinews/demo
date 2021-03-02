@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Antinew.AspNetCore3._1.Implement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Antinew.AspNetCore3.1.Interface\Antinew.AspNetCore3.1.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

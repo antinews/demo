@@ -53,5 +53,10 @@ C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCo
 C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Demo.csproj.CoreCompileInputs.cache
 C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Demo.MvcApplicationPartsAssemblyInfo.cache
 C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
-C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Demo.csprojAssemblyReference.cache
 C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Razor\Views\Second\Index.cshtml.g.cs
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Razor\Views\Third\Index.cshtml.g.cs
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Demo.csprojAssemblyReference.cache
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Interface.dll
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Interface.pdb
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Implement.dll
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Implement.pdb

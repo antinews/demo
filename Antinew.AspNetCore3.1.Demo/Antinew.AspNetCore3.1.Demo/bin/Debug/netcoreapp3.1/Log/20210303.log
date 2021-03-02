@@ -1,0 +1,27 @@
+2021-03-03 00:03:39,259   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 00:03:43,859   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 00:03:43,897   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 00:03:43,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 00:03:43,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 00:03:43,898   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 00:09:59,361   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 00:10:03,812   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 00:10:03,849   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 00:10:03,850   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 00:10:03,850   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 00:10:03,850   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 00:15:36,920   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 00:15:44,074   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 00:15:44,109   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 00:15:44,109   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 00:15:44,109   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 00:15:44,110   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 00:15:53,422  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Third is Error
+ 2021-03-03 00:17:08,496   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 00:17:12,777   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 00:17:12,808   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 00:17:12,809   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 00:17:12,809   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 00:17:12,809   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 00:26:59,245   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 

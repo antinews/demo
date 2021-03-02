@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Antinew.AspNetCore3._1.Interface</RootNamespace>
+  </PropertyGroup>
+
+</Project>

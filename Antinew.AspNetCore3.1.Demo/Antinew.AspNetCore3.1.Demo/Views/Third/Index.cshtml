@@ -1,0 +1,10 @@
+﻿@model string
+
+@{
+    Console.WriteLine("视图执行。。");
+    ViewData["Title"] = "IndexPage";
+}
+
+<h2>@Model</h2>
+<h2>Action Time：@base.ViewBag.Now.ToString("yyyy-MM-dd HH:mm:ss fff")</h2>
+<h2>View Time：@DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff")</h2>

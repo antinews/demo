@@ -8,12 +8,16 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Antinew.AspNetCore3.1.Implement\Antinew.AspNetCore3.1.Implement.csproj" />
     <ProjectReference Include="..\Antinew.AspNetCore3.1.Interface\Antinew.AspNetCore3.1.Interface.csproj" />
+    <ProjectReference Include="..\Antinew.AspNetCore3.1.Model\Antinew.AspNetCore3.1.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

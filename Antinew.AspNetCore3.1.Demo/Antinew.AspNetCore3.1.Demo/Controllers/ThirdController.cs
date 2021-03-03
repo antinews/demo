@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Antinew.AspNetCore3._1.Demo.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
@@ -11,9 +12,11 @@ using Microsoft.Extensions.Configuration;
 namespace Antinew.AspNetCore3._1.Demo.Controllers
 {
 
+    //[TypeFilter(typeof(CustomActionAuthorization))]
     [CustomControllerFilterAttribute(Order = -10)]
     [CustomControllerFilterAttribute]
-    [CustomActionCacheFilterAttribute(Order = -1)]
+    [Authorize]
+    //[CustomActionCacheFilterAttribute(Order = -1)]
     public class ThirdController : Controller
     {
         private readonly IConfiguration _configuration;
@@ -23,7 +26,7 @@ namespace Antinew.AspNetCore3._1.Demo.Controllers
         }
         [CustomIOCFilterFactioryAttribute]
         [CustomActionFilterAttribute(Order =100)]
-        [CustomResourceFilterAttribute]
+        //[CustomResourceFilterAttribute]
         //[TypeFilter(typeof(CustomExceptionFilterAttribute))]
         //[ServiceFilter(typeof(CustomExceptionFilterAttribute))]
         public IActionResult Index()

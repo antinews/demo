@@ -7,11 +7,14 @@ using Antinew.AspNetCore3._1.Demo.Middleware;
 using Antinew.AspNetCore3._1.Demo.Utility;
 using Antinew.AspNetCore3._1.Implement;
 using Antinew.AspNetCore3._1.Interface;
+using Antinew.AspNetCore3._1.Model;
 using Autofac;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
@@ -44,18 +47,30 @@ namespace Antinew.AspNetCore3._1.Demo
                     options.Filters.Add<CustomExceptionFilterAttribute>(); // 全局注册，每个controller
                     options.Filters.Add<CustomGlobalFilterAttribute>();
                 }
-                );
+                ).AddRazorRuntimeCompilation(); // 修改cshtml后能自动编译
             services.AddSession();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = new PathString("/Fourth/Login");
+                    options.AccessDeniedPath = new PathString("/Home/Privacy");
 
+                });//用cookie的方式验证，顺便初始化登录地址
             services.AddScoped(typeof(CustomExceptionFilterAttribute)); // 容器生成，自动注入
             services.AddScoped<ITestServiceA, TestServiceA>();
+            services.AddScoped<DbContext, JDDbContext>();
+            //services.AddEntityFrameworkSqlServer()
+            //    .AddDbContext<JDDbContext>(options =>
+            //    {
+            //        options.UseSqlServer(Configuration["JDDbConnection"]);
+            //    });
         }
         public void ConfigureContainer(ContainerBuilder containerBuilder)
             => containerBuilder.RegisterModule<CustomAutofacModule>();
 
         /// <summary>
         /// 初始化中间件 AOP式的
-        /// 中间件Invoke（HttpContext）-》ResourceFilter执行前-》全局Filter执行前-》控制器执行前-》Action执行前-》{Action中的代码（OnActionExecut）|视图（OnResultExecut）}-》Action执行后-》控制器执行后-》全局Filter执行结束-》ResourceFilter执行后(然后渲染视图)-》中间件next（RequestDelegate）
+        /// 中间件Invoke（HttpContext）-》Authorization -》ResourceFilter -》 ExceptionFilter -》ActionFilter -》 ResultFilter -》next（RequestDelegate）
         /// Filter Order默认是0，从小到大默认执行
         /// FilterContext.Result的赋值可以中断流程
         /// </summary>
@@ -69,39 +84,58 @@ namespace Antinew.AspNetCore3._1.Demo
             //app.Use(_ => context => context.Response.WriteAsync("hollow")); // 等同上面
             #endregion
 
-            #region Use中间件
-            //app.Use(next =>
-            //{
-            //    Console.WriteLine("middle1");
-            //    return new RequestDelegate(
-            //           async context =>
-            //           {
-            //               await context.Response.WriteAsync("hollow.... start1\n");
-            //               await next.Invoke(context);
-            //               await context.Response.WriteAsync("hollow.... end1\n");
-            //           });
-            //});
-            //app.Use(next =>
-            //{
-            //    Console.WriteLine("middle2");
-            //    return new RequestDelegate(
-            //           async context =>
-            //           {
-            //               await context.Response.WriteAsync("hollow.... start2\n");
-            //               await next.Invoke(context);
-            //               await context.Response.WriteAsync("hollow.... end2\n");
-            //           });
-            //});
-            //app.Use(next =>
-            //{
-            //    Console.WriteLine("middle3");
-            //    return new RequestDelegate(
-            //           async context =>
-            //           {
-            //               await context.Response.WriteAsync("hollow.... start3\n");
-            //               await context.Response.WriteAsync("hollow.... end3\n");
-            //           });
-            //});
+            #region Use中间件  mvc流程一旦开启就不能操作response了 OnStarting cannot be set because the response has already started.
+            app.Use(next =>
+            {
+                Console.WriteLine("middle1");
+                return new RequestDelegate(
+                       async context =>
+                       {
+                           await Task.Run(() => Console.WriteLine("hollow.... start1"));
+                           //await context.Response.WriteAsync("hollow.... start1\n");
+                           await next.Invoke(context);
+                           await Task.Run(() => Console.WriteLine("hollow.... end1"));
+                           //await context.Response.WriteAsync("hollow.... end1\n");
+                       });
+            });
+            app.Use(next =>
+            {
+                Console.WriteLine("middle2");
+                return new RequestDelegate(
+                       async context =>
+                       {
+                           await Task.Run(() => Console.WriteLine("hollow.... start2"));
+                           context.Response.OnStarting(state =>
+                           {
+                               var httpContext = state as HttpContext;
+                               httpContext.Response.Headers.Add("Message", "hollow.... start2");
+                               return Task.CompletedTask;
+                           }, context);
+                           //await context.Response.WriteAsync("hollow.... start2\n");
+                           await next.Invoke(context);
+                           await Task.Run(() => Console.WriteLine("hollow.... end2"));
+                           //await context.Response.WriteAsync("hollow.... end2\n");
+                       });
+            });
+            app.Use(next =>
+            {
+                Console.WriteLine("middle3");
+                return new RequestDelegate(
+                       async context =>
+                       {
+                           await Task.Run(() => Console.WriteLine("hollow.... start3"));
+                           context.Response.OnStarting(state =>
+                           {
+                               var httpContext = state as HttpContext;
+                               httpContext.Response.Headers.Add("Message2", "hollow.... start3");
+                               return Task.CompletedTask;
+                           }, context);
+                           //await context.Response.WriteAsync("hollow.... start3\n");
+                           await next.Invoke(context);
+                           await Task.Run(() => Console.WriteLine("hollow.... end3"));
+                           //await context.Response.WriteAsync("hollow.... end3\n");
+                       });
+            });
             #endregion
 
 
@@ -149,9 +183,9 @@ namespace Antinew.AspNetCore3._1.Demo
                 }
             );
 
-            app.UseRouting();
-
-            app.UseAuthorization();
+            app.UseRouting(); 
+            app.UseAuthentication(); // 鉴权
+            app.UseAuthorization(); // 授权
 
             app.UseEndpoints(endpoints =>
             {

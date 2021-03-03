@@ -1,0 +1,9 @@
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.deps.json
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.dll
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.AssemblyInfoInputs.cache
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.AssemblyInfo.cs
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\bin\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.pdb
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.csproj.CoreCompileInputs.cache
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.dll
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.pdb
+C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Model\obj\Debug\netcoreapp3.1\Antinew.AspNetCore3.1.Model.csprojAssemblyReference.cache

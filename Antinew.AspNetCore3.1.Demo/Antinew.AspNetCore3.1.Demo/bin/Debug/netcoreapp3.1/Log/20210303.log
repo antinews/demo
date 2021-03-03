@@ -24,4 +24,271 @@
  2021-03-03 00:17:12,809   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
  2021-03-03 00:17:12,809   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
  2021-03-03 00:26:59,245   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:20:10,397   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:20:10,437   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:20:10,437   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:20:10,438   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:20:10,439   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:20:43,925  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Fourth_Index.ExecuteAsync() in C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo\Views\Fourth\Index.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-03 20:21:57,175  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 20:24:38,712   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:30:06,348   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:30:06,379   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:30:06,379   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:30:06,379   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:30:06,379   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:30:51,704  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 20:30:58,305   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:34:26,789   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:34:26,819   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:34:26,820   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:34:26,820   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:34:26,820   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:35:03,860  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 20:36:41,233   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:37:47,549   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:37:47,574   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:37:47,574   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:37:47,574   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:37:47,574   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:38:10,876  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 20:40:22,167  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 20:42:31,461   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:42:37,607   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:42:37,637   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:42:37,637   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:42:37,637   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:42:37,637   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:48:05,851   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:48:11,507   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:48:11,541   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:48:11,541   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:48:11,541   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:48:11,541   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 20:58:26,147   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 20:58:31,333   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 20:58:31,361   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 20:58:31,361   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 20:58:31,362   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 20:58:31,362   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:01:45,618   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:04:51,857   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:04:51,892   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:04:51,892   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:04:51,892   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:04:51,892   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:07:00,585   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:07:05,159   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:07:05,192   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:07:05,192   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:07:05,193   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:07:05,193   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:10:17,022   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:10:22,615   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:10:22,649   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:10:22,649   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:10:22,650   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:10:22,650   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:18:09,336   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:18:13,311   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:18:13,345   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:18:13,345   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:18:13,345   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:18:13,345   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:45:59,117   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:46:11,741   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:46:11,771   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:46:11,771   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:46:11,772   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:46:11,772   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 21:47:55,520   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 21:48:00,168   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 21:48:00,202   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 21:48:00,202   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 21:48:00,203   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 21:48:00,203   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:15:02,462   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:15:11,563   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:15:11,593   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:15:11,594   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:15:11,594   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:15:11,594   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:15:58,352   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:16:04,426   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:16:04,456   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:16:04,457   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:16:04,457   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:16:04,457   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:16:55,129  ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.HttpResponse.OnStarting(Func`1 callback)
+   at Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler.InitializeHandlerAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-03 22:16:55,132   WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage  The response has already started, the error page middleware will not be executed.
+ 2021-03-03 22:22:38,780   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:22:44,419   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:22:44,449   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:22:44,449   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:22:44,450   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:22:44,450   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:28:56,251   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:29:01,242   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:29:01,272   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:29:01,272   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:29:01,273   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:29:01,273   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:30:23,249   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:30:27,149   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:30:27,173   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:30:27,173   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:30:27,173   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:30:27,173   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:52:14,216   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:55:48,458   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:55:48,486   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:55:48,486   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:55:48,487   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:55:48,487   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:55:53,781  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 22:55:57,482  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 22:58:47,445   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 22:58:55,009   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 22:58:55,039   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 22:58:55,040   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 22:58:55,040   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 22:58:55,040   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 22:58:59,352  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 23:12:31,507   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 23:12:38,389   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 23:12:38,420   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 23:12:38,420   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 23:12:38,420   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 23:12:38,420   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 23:12:43,346  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 23:32:54,972   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 23:33:05,870   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 23:33:05,899   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 23:33:05,900   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 23:33:05,900   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 23:33:05,900   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 23:33:10,144  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 23:35:08,774   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
+ 2021-03-03 23:35:16,152   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: https://localhost:5001
+ 2021-03-03 23:35:16,189   INFO  Microsoft.Hosting.Lifetime.LogMessage  Now listening on: http://localhost:5000
+ 2021-03-03 23:35:16,190   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application started. Press Ctrl+C to shut down.
+ 2021-03-03 23:35:16,190   INFO  Microsoft.Hosting.Lifetime.LogMessage  Hosting environment: Development
+ 2021-03-03 23:35:16,190   INFO  Microsoft.Hosting.Lifetime.LogMessage  Content root path: C:\Antinew\Architect\ASP.NET Core3.1\Antinew.AspNetCore3.1.Demo\Antinew.AspNetCore3.1.Demo
+ 2021-03-03 23:35:18,056   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JDCommodity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,074   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_002'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,075   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_003'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,075   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_004'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,076   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_005'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,076   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_006'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,077   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_007'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,078   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_008'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,078   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_009'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,079   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_010'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,079   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_011'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,080   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_012'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,081   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_013'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,081   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_014'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,082   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_015'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,083   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_016'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,083   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_017'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,084   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_018'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,084   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_019'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,085   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_020'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,086   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_021'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,086   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_022'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,087   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_023'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,087   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_024'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,088   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_025'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,088   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_026'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,089   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_027'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,089   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_028'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,090   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_029'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,091   WARN  Microsoft.EntityFrameworkCore.Model.Validation.LogMessage  No type was specified for the decimal property 'Price' on entity type 'JD_Commodity_030'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2021-03-03 23:35:18,670  ERROR  Microsoft.EntityFrameworkCore.Database.Command.LogMessage  Failed executing DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [u].[Id], [u].[Account], [u].[CompanyId], [u].[CompanyName], [u].[CreateTime], [u].[CreatorId], [u].[Email], [u].[LastLoginTime], [u].[LastModifierId], [u].[LastModifyTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[State], [u].[UserType]
+FROM [User] AS [u]
+ORDER BY [u].[Id]
+ 2021-03-03 23:35:18,688  ERROR  Microsoft.EntityFrameworkCore.Query.LogMessage  An exception occurred while iterating over the results of a query for context type 'Antinew.AspNetCore3._1.Model.JDDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): 对象名 'User' 无效。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:8d0d634e-9bb4-490a-9a50-462880bcc200
+Error Number:208,State:1,Class:16
+ Microsoft.Data.SqlClient.SqlException (0x80131904): 对象名 'User' 无效。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:8d0d634e-9bb4-490a-9a50-462880bcc200
+Error Number:208,State:1,Class:16
+2021-03-03 23:35:18,714  ERROR  Antinew.AspNetCore3._1.Demo.Utility.CustomExceptionFilterAttribute.LogMessage  Fourth is Error
+ 2021-03-03 23:53:03,508   INFO  Microsoft.Hosting.Lifetime.LogMessage  Application is shutting down...
  

@@ -1,0 +1,10 @@
+﻿@model List<Antinew.AspNetCore3._1.Model.User>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index-Fourth</h1>
+@foreach (var user in Model)
+{
+    <h3>@user.Name</h3>
+}
